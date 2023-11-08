@@ -1,0 +1,24 @@
+.menu {
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.menu .menu-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: 333ms ease;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .menu-item:hover {
+  background-color: #ececec;
+}
